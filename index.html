@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Data science portfolio for a machine learning practitioner showcasing analytics projects, skills, experience, and contact information."
+    />
+    <title>Data Science Portfolio | Alex Carter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Alex Carter home">
+          <span class="brand-mark">AC</span>
+          <span>Alex Carter</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Data Scientist • Machine Learning • Analytics</p>
+          <h1>Turning messy data into production-ready insights and measurable impact.</h1>
+          <p class="hero-text">
+            I build predictive models, dashboards, and decision systems that help teams understand
+            customers, forecast outcomes, and automate smarter business workflows.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="mailto:alex.carter@example.com">Get in touch</a>
+          </div>
+          <dl class="metrics" aria-label="Career metrics">
+            <div>
+              <dt>38%</dt>
+              <dd>forecast error reduction</dd>
+            </div>
+            <div>
+              <dt>12M+</dt>
+              <dd>rows modeled monthly</dd>
+            </div>
+            <div>
+              <dt>7</dt>
+              <dd>models deployed</dd>
+            </div>
+          </dl>
+        </div>
+        <aside class="hero-card" aria-label="Featured machine learning workflow">
+          <div class="card-topline">
+            <span class="status-dot"></span>
+            <span>Model pipeline</span>
+          </div>
+          <div class="pipeline">
+            <div><span>01</span> Ingest</div>
+            <div><span>02</span> Feature engineering</div>
+            <div><span>03</span> Train & validate</div>
+            <div><span>04</span> Monitor drift</div>
+          </div>
+          <div class="chart" aria-hidden="true">
+            <span style="height: 34%"></span>
+            <span style="height: 52%"></span>
+            <span style="height: 44%"></span>
+            <span style="height: 76%"></span>
+            <span style="height: 62%"></span>
+            <span style="height: 88%"></span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Data science projects</h2>
+          <p>Case-study style examples that can be customized with your datasets, links, and outcomes.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-icon">📈</div>
+            <h3>Demand forecasting engine</h3>
+            <p>
+              Built a time-series forecasting workflow using gradient boosting and hierarchical
+              reconciliation to predict weekly product demand across regions.
+            </p>
+            <ul>
+              <li>Reduced MAPE by 38% compared with baseline forecasts.</li>
+              <li>Automated feature generation for promotions, holidays, and seasonality.</li>
+            </ul>
+            <a href="#contact">Discuss this project →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon">🧠</div>
+            <h3>Customer churn classifier</h3>
+            <p>
+              Designed an interpretable classification model with SHAP explanations to identify
+              retention risks and recommended outreach segments.
+            </p>
+            <ul>
+              <li>Lifted high-risk segment precision by 24%.</li>
+              <li>Delivered stakeholder dashboard for marketing teams.</li>
+            </ul>
+            <a href="#contact">Discuss this project →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon">🛰️</div>
+            <h3>NLP insight miner</h3>
+            <p>
+              Processed support tickets with embeddings, clustering, and topic summaries to reveal
+              product pain points and prioritize roadmap decisions.
+            </p>
+            <ul>
+              <li>Grouped 90k+ tickets into actionable themes.</li>
+              <li>Shortened manual review cycles from days to hours.</li>
+            </ul>
+            <a href="#contact">Discuss this project →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="skills">
+        <div>
+          <p class="eyebrow">Toolkit</p>
+          <h2>Technical skills</h2>
+          <p>
+            Comfortable across the data lifecycle: experimentation, statistical modeling, MLOps,
+            visualization, and communication for non-technical stakeholders.
+          </p>
+        </div>
+        <div class="skill-cloud" aria-label="Data science skills">
+          <span>Python</span><span>SQL</span><span>R</span><span>Pandas</span><span>scikit-learn</span>
+          <span>PyTorch</span><span>XGBoost</span><span>dbt</span><span>Airflow</span><span>Tableau</span>
+          <span>Power BI</span><span>A/B Testing</span><span>Statistics</span><span>AWS</span><span>Docker</span>
+        </div>
+      </section>
+
+      <section class="section timeline-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Experience highlights</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>2024 — Present</span>
+            <h3>Senior Data Scientist, InsightWorks</h3>
+            <p>Lead forecasting, experimentation, and model monitoring initiatives for revenue teams.</p>
+          </article>
+          <article>
+            <span>2021 — 2024</span>
+            <h3>Data Scientist, Northstar Analytics</h3>
+            <p>Built churn, segmentation, and recommendation models that informed lifecycle strategy.</p>
+          </article>
+          <article>
+            <span>2019 — 2021</span>
+            <h3>Analytics Engineer, BrightRetail</h3>
+            <p>Created trusted data marts, KPI dashboards, and automated reporting pipelines.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div>
+          <p class="eyebrow">Let's collaborate</p>
+          <h2>Need a data scientist for your next decision system?</h2>
+          <p>
+            Replace the placeholder details with your own email, résumé, project links, and social profiles.
+          </p>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:alex.carter@example.com">alex.carter@example.com</a>
+          <a href="https://www.linkedin.com/" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/" rel="noreferrer">GitHub</a>
+          <a href="#top">Download résumé</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Alex Carter. Built for data science storytelling.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
